@@ -16,6 +16,10 @@ public class CustomerDemo{
 		ob.setCustomerId(id);
 		ob.setCustomerName(name);
 		ob.setCustomerCity(city);
+		ob.setCustomerName("Namratha");
+		ob.setCustomerCity("Bengaluru");
+		System.out.println(ob);
+		System.out.println(ob.getCustomerName()+" "+ob.getCustomerId()+" "+ob.getCustomerCity());
 	}
 
 }
